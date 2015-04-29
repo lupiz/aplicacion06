@@ -6,10 +6,11 @@ document.addEventListener("deviceready",function(){
 });//tap a btnvibrar
 $('#btnbeep').on('tap',function (){
 	navegador.beep(1)
-	$('#izquierda').on ('swipeleft',function(){
+	
+});//tap vtnbeep
+$('#izquierda').on ('swipeleft',function(){
 		alert('barrio a la izquierda');
 	});
-});//tap vtnbeep
 }); 
 });
 
