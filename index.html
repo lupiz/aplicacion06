@@ -18,7 +18,7 @@
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.mobile-1.4.5.min.js"></script>
   <script src="js/acciones.js" type="text/javascript"></script>
-  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+  <script src="phonegap.js" type="text/javascript"></script> 
  </head>
 
  <body>
@@ -26,18 +26,55 @@
  <!-- Principal -->
  <div data-role="page" id="principal" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Eventos</h1>
+    
+    
   </div>
 
-  <div data-role="main" class="ui-content">
-    <p>Primera Aplicacion Movil</p>
+  <div data-role="main" class="ui-content" align="center">
+   <div  style="width: 50%" data-role="controlgroup" data-type="vertical">
+    <a href ="#" id="btnvibrar" class="ui-btn">vibrar</a>
+    <a href ="#" id="btnbeep" class="ui-btn">beep</a>
+    <a href ="#barrer" id="btnbarrer" class="ui-btn">barrer</a>
+    <a href ="#" id="btneventos" class="ui-btn">eventos</a>
+    
+    
+    
+   </div>
+  
   </div>
 
   <div data-role="footer">
-    <h1>Pie</h1>
+    <h1>@guadalupe</h1>
   </div>
  </div>  
  <!-- Principal -->
 
+ <!-- barrer -->
+ <div data-role="page" id="barrer" >   
+  <div data-role="header">
+    <h1>barrer</h1>
+    
+    
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div style="background:#03C" align="center" id="izquierda">
+   <h1>izquierda</h1>
+   
+ </div>
+  </div>
+  
+<div data-role="main" class="ui-content">
+   <div style="background: #0FF" align="center" id="derecha">
+   <h1>derecha</h1>
+   
+ </div>
+  </div>
+  <div data-role="footer">
+    <h1>@guadalupe</h1>
+  </div>
+ </div>  
+ <!-- barrer -->
  </body>
 </html> 
