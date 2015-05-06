@@ -11,6 +11,15 @@ $('#btnbeep').on('tap',function (){
 $('#izquierda').on ('swipeleft',function(){
 		alert('barrio a la izquierda');
 	});
+	document.addEventListener("pause",function(){
+		$('#listado').append("<p> la aplicasion se pausa </p>");
+	});
+	document.addEventListener("resume",function(){
+		$('#listado').append("<p>se reinicio </p>");
+	}); 
+	$(window).on('orientationchange',function(e){
+		$('#listado').append("<p>orientacion:" + e.arientation +"</p>");
+	});
 }); 
 });
 
